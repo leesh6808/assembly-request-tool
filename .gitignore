@@ -1,0 +1,66 @@
+# Local secrets
+.env
+.env.*
+# 예제 환경 파일도 실제 값이 섞일 수 있어 기본 제외
+
+# Dependencies and caches
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Temporary and generated results
+/tmp/
+*.log
+*_결과.*
+*결과*
+*.xlsx
+*.xls
+*.hwpx
+
+# Do not publish source/working materials
+/원문/
+/부서회신/
+/지침재료/
+/data/
+
+# Local copied external repositories
+/hwpx-rekian/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# 비밀키와 인증 자료
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+.codex/
+.claude/
+
+# 로컬 결과·사용자 자료·교육 부록
+/output/
+/outputs/
+/artifacts/
+cases.json
+문항목록.csv
+/org.json
+*.pdf
+*.hwp
+*.docx
+*.zip
+/99_완성본_잠금/
+/시스템 개발/
+/.agents/
+/skills-lock.json
+/과천국가공무원연수원_가는길.html
+/국회요구자료_실제게시판.html
+/주요내용_게시판.html
+/조직도_효과.html
+
+# 공개 웹 데이터는 검토한 조직도와 승인 보강본만 포함
+/web/data/*
+!/web/data/A부_조직도_26개과.csv
+!/web/data/rules_보강.csv
