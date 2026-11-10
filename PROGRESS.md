@@ -43,3 +43,14 @@
 - 실제 배포 예정 시작 주소: https://leesh6808.github.io/assembly-request-tool/web/
 - 실제 배포 예정 배분 주소: https://leesh6808.github.io/assembly-request-tool/web/assign.html
 - 저장소 예정 주소: https://github.com/leesh6808/assembly-request-tool
+
+## GitHub Pages 배포 완료 — 2026-11-10
+
+- 상태: 배포 성공 및 실제 사이트 기능 검증 완료.
+- 저장소: https://github.com/leesh6808/assembly-request-tool
+- 시작 화면: https://leesh6808.github.io/assembly-request-tool/web/
+- 배분 화면: https://leesh6808.github.io/assembly-request-tool/web/assign.html
+- 배포 설정: main 브랜치, / (root), web/ 경로 유지.
+- 검증: 실제 Pages에서 PDF 3건 25·34·19문항(합계 78), 문항목록 전체 값 일치, 2건 배분확정(규칙/수정), 새로고침 복원, CSV 중복 방지, 시작 화면 집계 확인.
+- 시험은 격리된 브라우저에서 진행했으며 사용자 브라우저의 기록은 변경하지 않음. 원문·접수대장·부서회신·인증키·임시파일은 공개 저장소에서 제외.
+- 위의 미배포·예정 기록은 당시 이력이며 이 완료 기록이 최신 상태임.
